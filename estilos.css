@@ -1,0 +1,108 @@
+body{
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.nav { 
+    background-color: pink;
+    
+}
+h1 {
+    font-size: 5vw; /* Ajusta el tamaño según el ancho de la vista */
+    margin-left: 100px;
+}
+
+.carousel-inner { 
+    max-width: 800px; 
+}
+
+footer {
+    background-color:palevioletred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.social-icons li {
+    display: inline;
+}
+.social-icons img {
+    width: 30px; /* Ajusta el tamaño de los logos */
+    height: 30px;
+}
+.social-icons a {
+    display: inline-block;
+}
+.card-img-top {
+    width: 80%; /* Ajusta el ancho al 100% de la tarjeta */
+    height: 500px; /* Ajusta la altura deseada */
+    object-fit: cover; /* Mantiene la relación de aspecto y recorta si es necesario */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    padding: 10px; /*relleno */ 
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #f2f2f2;
+}
+.rojo {
+    background-color: #F44336; /* Rojo */
+    color: white;
+}
+.naranja {
+    background-color: #FF9800; /* Naranja */
+    color: white;
+}
+.amarillo {
+    background-color: #FFEB3B; /* Amarillo */
+    color: black;
+}
+.verde {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+}
+.azul {
+    background-color: #2196F3; /* Azul */
+    color: white;
+}
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #0a0909;
+    border-radius: 5px;
+    background-color: #f0c0dd;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
